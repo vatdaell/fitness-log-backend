@@ -2,7 +2,7 @@ name: fitness-log
 services:
   - dockerfile_path: /Dockerfile
     github:
-      branch: main
+      branch: master
       deploy_on_push: true
       repo: vatdaell/fitness-log
     name: fitness-log
