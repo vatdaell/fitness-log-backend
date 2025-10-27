@@ -2,9 +2,9 @@ name: PR Build
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, reopened]
     branches:
-      - main
+      - master
 
 jobs:
   build:
